@@ -16,7 +16,7 @@ def initScreen():
     return root
 
 def main():
-    root =initScreen();
+    root = initScreen();
     app  = mainWindow(root)
     root.after(refreshPeriod, app.render)
     root.mainloop()
